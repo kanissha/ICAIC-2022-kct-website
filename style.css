@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
 .header {
     background: var(--blue-light);
-    height: 90px;
+    height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
 }
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   #mobile-nav ul li li {
-    padding-top: 30px;
+    padding-left: 30px;
   }
   
   #mobile-nav ul .menu-has-children i {
