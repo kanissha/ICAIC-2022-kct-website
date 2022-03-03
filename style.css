@@ -10,7 +10,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    font-size:20px;
+  
     font-weight:200%;
     padding: 0;
 }
@@ -631,7 +631,7 @@ overflow: hidden;
 --------------------------------------------------------------*/
 
 #speakers {
-  padding: 85px 0 30px 0;
+  padding: 90px 0 30px 0;
 }
 .speaker_cen {
 text-align: center;
@@ -651,6 +651,7 @@ text-transform: capitalize;
 .role {
   color: var(--red);
   margin: 0;
+  font-size:1.25rem;
   font-weight: 600 !important;
 }
 .speaker_name h5 {
@@ -1041,11 +1042,7 @@ table{
 th, td{
 	padding:1%;
 }
-.role {
-    color: #b61818;
-    margin: 0;
-    font-weight: 600 !important;
-}
+
 #registration{
 	text-align:center;
 	}
