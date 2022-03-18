@@ -14,6 +14,8 @@
     font-weight:200%;
     padding: 0;
 }
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -24,8 +26,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 ul {
-    list-style: none;
+    list-style: square;
+    color:black;
 }
+
 
 img {
     max-width: 100%;
@@ -518,6 +522,7 @@ overflow: hidden;
 }
 #about_KCT h2,h3,p{
   color: #000000;
+
 }
 #about h2 {
   font-size: 36px;
@@ -546,19 +551,45 @@ overflow: hidden;
 }
 
 /*--------------------------------------------------------------
-# Speaker Section
+# Poster Section
 --------------------------------------------------------------*/
 #poster-presentation {
   padding: 85px 0 30px 0;
 }
-#poster-presentation h1 {
+#poster-presentation h3 {
     font-size: 1.5rem;
+    font-weight:600;
 }
 #poster-presentation p {
   margin-bottom: 15px;
 }
 #poster-presentation p i{
   margin-right: 15px;
+}
+#poster-presentation a{
+  color:rgb(155, 0, 0);
+  font-size: 20px;
+}
+
+/*--------------------------------------------------------------
+# Paper Section
+--------------------------------------------------------------*/
+#paper-submission{
+  padding: 85px 0 30px 0;
+}
+#paper-submission h1,h4 {
+    font-size: 1.5rem;
+    font-weight:600;
+}
+#paper-submission p {
+  margin-bottom: 15px;
+}
+#paper-submission p i{
+  margin-right: 15px;
+}
+#paper-submission a{
+  color:rgb(155, 0, 0);
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -632,12 +663,18 @@ overflow: hidden;
 
 #speakers {
   padding: 90px 0 30px 0;
+
+}
+
+#speakers img{
+  max-width: 40%;
+  height: auto;
 }
 .speaker_cen {
 text-align: center;
 }
 .speaker_name p {
-  font-size: 1.25rem;
+  font-size: 1.00rem;
   line-height: inherit;
   font-weight: 300;
   margin: 0 0 15px 0;
@@ -646,6 +683,43 @@ text-align: center;
 color: var(--blue-dark);
 }
 .speaker_cen p {
+text-transform: capitalize;
+}
+.role {
+  color: var(--red);
+  margin: 0;
+  font-size:1.25rem;
+  font-weight: 600 !important;
+}
+.speaker_name h5 {
+  margin: 0px;
+  font-weight: 500;
+  line-height: inherit;
+  color: var(--blue-dark);
+}
+
+/*--------------------------------------------------------------
+# Advisory Section
+--------------------------------------------------------------*/
+
+#advisory {
+  padding: 85px 0 30px 0;
+  background-color: white;
+}
+
+.speaker_cen {
+text-align: center;
+}
+.speaker_name p {
+  font-size: 1.00rem;
+  line-height: inherit;
+  font-weight: 300;
+  margin: 0 0 15px 0;
+}
+.advisory_cen > hr {
+color: var(--blue-dark);
+}
+.advisory_cen p {
 text-transform: capitalize;
 }
 .role {
