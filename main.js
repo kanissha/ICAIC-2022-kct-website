@@ -38,7 +38,7 @@ function scrollFunction() {
       }
       if(itemClass === 'tracks_content tracks_close'){
           this.parentNode.className = 'tracks_content tracks_open'
-          document.getElementsByClassName('callforpaper-container')[0].scrollIntoView();
+          
       }
   }
   tracksHeader.forEach((el) => {
@@ -54,12 +54,12 @@ function scrollFunction() {
   
   function toggleNav() {
       if(navShow.className === 'mobile-nav'){
-          navButton.className = 'uil uil-unlock';
+          navButton.className = 'uil uil-times';
           navShow.className = 'mobile-nav toggle-show';
           navBackground.className = 'toggle-show';
       }
       else{
-          navButton.className = 'uil uil-lock';
+          navButton.className = 'uil uil-bars';
           navShow.className = 'mobile-nav';
           navBackground.className = 'toggle-off';
       }
